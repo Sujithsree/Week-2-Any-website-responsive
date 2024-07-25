@@ -1,0 +1,64 @@
+body {
+    padding: 0%;
+    width: 100%;
+}
+
+nav {
+    height: 80px;
+}
+
+header nav #navbarNav .nav-link{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+header nav .dropdown-item li {
+    background-color: white;
+}
+
+
+
+p {
+    cursor: text;
+    padding: 0px 100px;
+    display: flex;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media screen and (max-width :400px){
+    p {
+        padding: 0px 20px;
+    }
+}
+
+
+@media screen and (max-width:980px){
+    .nav-link {
+        background-color: rgb(152, 147, 147);
+    }
+}
+
+
+
+img {
+    cursor: pointer;
+}
+
+
+.carousel-inner img{
+    cursor: default;
+}
+
+
+footer li {
+    font-size: 15px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+
